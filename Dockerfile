@@ -7,14 +7,14 @@ COPY frontend/ .
 RUN npm run build
 
 # ===== Stage 2: 构建后端 (Spring Boot JAR) =====
-FROM maven:3.8-openjdk-17 AS backend
+FROM maven:3.8-eclipse-temurin-17 AS backend
 WORKDIR /app
 COPY backend/ .
 COPY --from=frontend /app/frontend/dist ./src/main/resources/static
 RUN mvn clean package -DskipTests
 
 # ===== Stage 3: 运行 =====
-FROM openjdk:17-jre-slim
+FROM eclipse-temurin:17-jre
 WORKDIR /app
 COPY --from=backend /app/target/*.jar app.jar
 EXPOSE 8080
