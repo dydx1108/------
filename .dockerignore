@@ -1,0 +1,14 @@
+﻿.git
+.gitignore
+.gitattributes
+README.md
+.vite
+node_modules
+database
+.env.example
+*.md
+frontend/node_modules
+frontend/tests
+backend/target
+.idea
+*.iml
