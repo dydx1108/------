@@ -47,18 +47,7 @@ CREATE TABLE items (
   CONSTRAINT fk_items_user FOREIGN KEY (publisher_id) REFERENCES users(id)
 );
 
-CREATE TABLE claims (
-  id INT PRIMARY KEY AUTO_INCREMENT,
-  item_id INT NOT NULL,
-  user_id INT NOT NULL,
-  evidence VARCHAR(300) NOT NULL,
-  status ENUM('pending', 'approved', 'rejected') NOT NULL DEFAULT 'pending',
-  reply VARCHAR(300),
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  CONSTRAINT fk_claims_item FOREIGN KEY (item_id) REFERENCES items(id) ON DELETE CASCADE,
-  CONSTRAINT fk_claims_user FOREIGN KEY (user_id) REFERENCES users(id)
-);
+
 
 INSERT INTO users (id, username, password, real_name, role, phone, college, status) VALUES
 (1, 'admin', '$2b$10$5SvK3rleo2da4cVM30UJoe/di/jtTFuk2Yyt43aHsV80hLht46N6m', '平台管理员', 'admin', '13800000000', '信息中心', 'active'),
