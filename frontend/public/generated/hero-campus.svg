@@ -1,0 +1,22 @@
+<svg width="1280" height="860" viewBox="0 0 1280 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="860" fill="#08211D"/>
+  <circle cx="1020" cy="120" r="240" fill="#F6C453" fill-opacity=".22"/>
+  <circle cx="300" cy="720" r="280" fill="#1FAE8A" fill-opacity=".28"/>
+  <path d="M196 604C315 427 443 368 582 427C721 486 841 430 1009 260" stroke="#EAF8EF" stroke-width="2" stroke-opacity=".32"/>
+  <path d="M260 248L642 92L1030 248V602C1030 658 984 704 928 704H362C306 704 260 658 260 602V248Z" fill="#F7EFE0" fill-opacity=".94"/>
+  <path d="M642 92L1030 248H260L642 92Z" fill="#1FAE8A"/>
+  <path d="M396 314H888V704H396V314Z" fill="#FFFFFF"/>
+  <rect x="448" y="374" width="116" height="106" rx="14" fill="#D9EFE8"/>
+  <rect x="586" y="374" width="116" height="106" rx="14" fill="#F9E7B6"/>
+  <rect x="724" y="374" width="116" height="106" rx="14" fill="#D9EFE8"/>
+  <rect x="544" y="536" width="196" height="168" rx="24" fill="#123E35"/>
+  <circle cx="795" cy="573" r="12" fill="#F6C453"/>
+  <rect x="160" y="622" width="960" height="54" rx="27" fill="#102F2A"/>
+  <rect x="830" y="490" width="220" height="142" rx="32" fill="#F6C453"/>
+  <path d="M872 548H1010" stroke="#123E35" stroke-width="18" stroke-linecap="round"/>
+  <path d="M872 592H960" stroke="#123E35" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="204" cy="180" r="7" fill="#F6C453"/>
+  <circle cx="1112" cy="548" r="9" fill="#1FAE8A"/>
+  <circle cx="112" cy="500" r="5" fill="#FFFFFF"/>
+  <text x="120" y="124" fill="#F7EFE0" font-family="Arial, sans-serif" font-size="54" font-weight="700">Campus Lost &amp; Found</text>
+</svg>
